@@ -1,0 +1,25 @@
+#سطوراشارات{
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+    border: none;
+    resize: none;
+    padding: 8px 0px;
+    width: calc( 100% - 66.5px );
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#رقم_سطور{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 8px 0px;
+    overflow: hidden;
+    border: none;
+    resize: none;
+}
+
+#سطوراشارات:focus, #رقم_سطور:focus{
+    outline: none;
+}

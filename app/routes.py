@@ -1,6 +1,8 @@
+from flask import render_template
+
 from app import app
 
 @app.route('/')
 @app.route('/index')
 def index():
-    return "السلام علیکم جامع ۸۰۵۱"
+    return render_template('صفحہ_جامع.html')
